@@ -5,7 +5,7 @@ import styles from './navigation.module.css';
 export default () => (
   <nav role='navigation'>
     <a href='#' class='brand-logo'><img
-                                     src='images/body/Logo.svg'
+                                     src='/images/body/Logo.svg'
                                      class='responsive-img nav-logo'
                                      width='268'
                                      height='48' /></a>

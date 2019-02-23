@@ -19,60 +19,60 @@ export default () => (
         </Link>
       </li>
       <li className={styles.navigationDropdown}>
-        <Link to='/household/'> Household <img alt='' src='/images/body/ic_keyboard_arrow_down.png' />
+        <Link to='/household/'> Household
         </Link>
         {/*        <ul className={styles.navigation}>
-          <li className={styles.navigationDropItem}>
-            <Link to='/household/'> Find hazardous waste products
-            </Link>
-          </li>
-          <li className={styles.navigationDropItem}>
-            <Link to='/household/'> Disposal options
-            </Link>
-          </li>
-          <li className={styles.navigationDropItem}>
-            <Link to='/household/'> Safer home products
-            </Link>
-          </li>
-          <li className={styles.navigationDropItem}>
-            <Link to='/household/'> Home collection
-            </Link>
-          </li>
-          <li className={styles.navigationDropItem}>
-            <Link to='/household/'> Incentives & home inspections
-            </Link>
-          </li>
-</ul> */}
+                          <li className={styles.navigationDropItem}>
+                            <Link to='/household/'> Find hazardous waste products
+                            </Link>
+                          </li>
+                          <li className={styles.navigationDropItem}>
+                            <Link to='/household/'> Disposal options
+                            </Link>
+                          </li>
+                          <li className={styles.navigationDropItem}>
+                            <Link to='/household/'> Safer home products
+                            </Link>
+                          </li>
+                          <li className={styles.navigationDropItem}>
+                            <Link to='/household/'> Home collection
+                            </Link>
+                          </li>
+                          <li className={styles.navigationDropItem}>
+                            <Link to='/household/'> Incentives & home inspections
+                            </Link>
+                          </li>
+                </ul> */}
       </li>
       <li className={styles.navigationDropdown}>
-        <Link to='/businesses/'> Businesses <img alt='' src='/images/body/ic_keyboard_arrow_down.png' />
+        <Link to='/businesses/'> Businesses
         </Link>
         {/*       <ul className={styles.navigation}>
-          <li className={styles.navigationDropItem}>
-            <Link to='/household/'> Hazardous waste product library
-            </Link>
-          </li>
-          <li className={styles.navigationDropItem}>
-            <Link to='/household/'> Dispose hazardous waste
-            </Link>
-          </li>
-          <li className={styles.navigationDropItem}>
-            <Link to='/household/'> Produce less hazardous waste
-            </Link>
-          </li>
-          <li className={styles.navigationDropItem}>
-            <Link to='/household/'> Business incentives & grants
-            </Link>
-          </li>
-          <li className={styles.navigationDropItem}>
-            <Link to='/household/'> Consultation
-            </Link>
-          </li>
-          <li className={styles.navigationDropItem}>
-            <Link to='/household/'> IMEX
-            </Link>
-          </li>
-</ul>*/}
+                          <li className={styles.navigationDropItem}>
+                            <Link to='/household/'> Hazardous waste product library
+                            </Link>
+                          </li>
+                          <li className={styles.navigationDropItem}>
+                            <Link to='/household/'> Dispose hazardous waste
+                            </Link>
+                          </li>
+                          <li className={styles.navigationDropItem}>
+                            <Link to='/household/'> Produce less hazardous waste
+                            </Link>
+                          </li>
+                          <li className={styles.navigationDropItem}>
+                            <Link to='/household/'> Business incentives & grants
+                            </Link>
+                          </li>
+                          <li className={styles.navigationDropItem}>
+                            <Link to='/household/'> Consultation
+                            </Link>
+                          </li>
+                          <li className={styles.navigationDropItem}>
+                            <Link to='/household/'> IMEX
+                            </Link>
+                          </li>
+                </ul>*/}
       </li>
       <li className={styles.navigationItem}>
         <Link to='/news-events/'> News & Events

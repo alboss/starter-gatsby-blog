@@ -59,23 +59,23 @@
   background-color: #D5DCE0;
   }
   /* skip links */
-.button-skip-link:not(:focus):not(:hover) {
+.buttonSkipLink:not(:focus):not(:hover) {
   -webkit-transform: translateY(-4em);
   -ms-transform: translateY(-4em);
   transform: translateY(-4em);
   opacity: 0;
 }
 button:focus, 
-.button-skip-link:focus {
+.buttonSkipLink:focus {
     border-color: #062434;
 }
-.button-skip-link:hover, .button--skip-link:focus, 
+.buttonSkipLink:hover, .buttoSkipLink:focus, 
 button:hover, button:focus {
     background-color: #08364E;
     text-decoration: none;
     color: #fff;
 }
-.button-skip-link {
+.buttonSkipLink {
     margin: 0 auto;
     position: absolute;
     z-index: 20;

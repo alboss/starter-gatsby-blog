@@ -77,11 +77,11 @@ button:hover, button:focus {
 }
 .buttonSkipLink {
     margin: 0 auto;
-    position: absolute;
+    /*position: absolute;*/
     z-index: 20;
-    left: 0;
+    /*left: 0;
     right: 0;
-    top: 1em;
+    top: 1em;*/
     width: 10em;
     opacity: 1;
 }

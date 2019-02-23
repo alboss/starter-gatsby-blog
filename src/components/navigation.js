@@ -21,7 +21,7 @@ export default () => (
       <li className={styles.navigationDropdown}>
         <Link to='/household/'> Household <img alt='' src='/images/body/ic_keyboard_arrow_down.png' />
         </Link>
-        <ul className={styles.navigation}>
+        {/*        <ul className={styles.navigation}>
           <li className={styles.navigationDropItem}>
             <Link to='/household/'> Find hazardous waste products
             </Link>
@@ -42,12 +42,12 @@ export default () => (
             <Link to='/household/'> Incentives & home inspections
             </Link>
           </li>
-        </ul>
+</ul> */}
       </li>
       <li className={styles.navigationDropdown}>
         <Link to='/businesses/'> Businesses <img alt='' src='/images/body/ic_keyboard_arrow_down.png' />
         </Link>
-        <ul className={styles.navigation}>
+        {/*       <ul className={styles.navigation}>
           <li className={styles.navigationDropItem}>
             <Link to='/household/'> Hazardous waste product library
             </Link>
@@ -72,7 +72,7 @@ export default () => (
             <Link to='/household/'> IMEX
             </Link>
           </li>
-        </ul>
+</ul>*/}
       </li>
       <li className={styles.navigationItem}>
         <Link to='/news-events/'> News & Events

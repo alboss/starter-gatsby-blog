@@ -4,19 +4,67 @@ import styles from './navigation.module.css';
 
 export default () => (
   <nav role='navigation'>
-    <a href='#' class='brand-logo'><img
-                                     src='/images/body/Logo.svg'
-                                     class='responsive-img nav-logo'
-                                     width='268'
-                                     height='48' /></a>
     <ul className={styles.navigation}>
+    <li className={styles.button--skip-link}>
+    <Link to='#main'>Skip</Link></li>
+    <li className={styles.navigationItem}>
+    <Link to='/'><img src='/images/body/Logo.svg' class='responsive-img nav-logo' width='268' height='48' /></Link>
+    </li>
       <li className={styles.navigationItem}>
-        <Link to='/household/'> Household
+        <Link to='/household/'> Household <img alt='' src='/images/body/ic_keyboard_arrow_down.png' />
         </Link>
+        <ul className={styles.navigation}>
+          <li className={styles.navigationItem}>
+            <Link to='/household/'> Find hazardous waste products
+            </Link>
+          </li>
+          <li className={styles.navigationItem}>
+            <Link to='/household/'> Disposal options
+            </Link>
+          </li>
+          <li className={styles.navigationItem}>
+            <Link to='/household/'> Safer home products
+            </Link>
+          </li>
+          <li className={styles.navigationItem}>
+            <Link to='/household/'> Home collection
+            </Link>
+          </li>
+          <li className={styles.navigationItem}>
+            <Link to='/household/'> Incentives & home inspections
+            </Link>
+          </li>
+        </ul>
       </li>
       <li className={styles.navigationItem}>
-        <Link to='/businesses/'> Businesses
+        <Link to='/businesses/'> Businesses <img alt='' src='/images/body/ic_keyboard_arrow_down.png' />
         </Link>
+        <ul className={styles.navigation}>
+          <li className={styles.navigationItem}>
+            <Link to='/household/'> Hazardous waste product library
+            </Link>
+          </li>
+          <li className={styles.navigationItem}>
+            <Link to='/household/'> Dispose hazardous waste
+            </Link>
+          </li>
+          <li className={styles.navigationItem}>
+            <Link to='/household/'> Produce less hazardous waste
+            </Link>
+          </li>
+          <li className={styles.navigationItem}>
+            <Link to='/household/'> Business incentives & grants
+            </Link>
+          </li>
+          <li className={styles.navigationItem}>
+            <Link to='/household/'> Consultation
+            </Link>
+          </li>
+          <li className={styles.navigationItem}>
+            <Link to='/household/'> IMEX
+            </Link>
+          </li>
+        </ul>
       </li>
       <li className={styles.navigationItem}>
         <Link to='/news-events/'> News & Events

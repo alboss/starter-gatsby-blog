@@ -5,10 +5,12 @@ import styles from './navigation.module.css';
 export default () => (
   <nav role='navigation'>
     <ul className={styles.navigation}>
-    <li className={styles.button--skip-link}>
-    <Link to='#main'>Skip</Link></li>
+    <li className={styles.buttonSkipLink}>
+    <Link to='#main'>Skip
+    </Link>
+    </li>
     <li className={styles.navigationItem}>
-    <Link to='/'><img src='/images/body/Logo.svg' class='responsive-img nav-logo' width='268' height='48' /></Link>
+    <Link to='/'><img src='/images/body/Logo.svg' alt='Local Hazardous Waste Management Program' width='268' height='48'></Link>
     </li>
       <li className={styles.navigationItem}>
         <Link to='/household/'> Household <img alt='' src='/images/body/ic_keyboard_arrow_down.png' />
@@ -31,7 +33,7 @@ export default () => (
             </Link>
           </li>
           <li className={styles.navigationItem}>
-            <Link to='/household/'> Incentives & home inspections
+            <Link to='/household/'> Incentives &amp; home inspections
             </Link>
           </li>
         </ul>
@@ -53,7 +55,7 @@ export default () => (
             </Link>
           </li>
           <li className={styles.navigationItem}>
-            <Link to='/household/'> Business incentives & grants
+            <Link to='/household/'> Business incentives &amp; grants
             </Link>
           </li>
           <li className={styles.navigationItem}>
@@ -67,7 +69,7 @@ export default () => (
         </ul>
       </li>
       <li className={styles.navigationItem}>
-        <Link to='/news-events/'> News & Events
+        <Link to='/news-events/'> News &amp; Events
         </Link>
       </li>
       <li className={styles.navigationItem}>
